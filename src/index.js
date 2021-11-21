@@ -40,7 +40,7 @@ let currentMonth = document.querySelector("#month");
 currentMonth.innerHTML = `${thisMonth}`;
 
 let currentDate = document.querySelector("#date");
-currentDate.innerHTML = `${todaysDate}`;
+currentDate.innerHTML = ` ${todaysDate}`;
 
 let currentDay = document.querySelector("#day");
 currentDay.innerHTML = `${thisDay}`;
