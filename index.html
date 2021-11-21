@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
   </head>
+  <body>
   <div class="container">
     <div class="card">
       <div class="card-body">
@@ -29,10 +30,29 @@
         <div id="city" class="city"></div>
         <span id="date"></span>
         <span id="day"></span>
-        <span d="hour"></span>
+        <span id="hour"></span>
         <span id="minutes"></span>
+        <div class="row'>
+          <div class="col-6">
+          <li class="temperature"> <span id="temperature">°C  </span>
+          </li>
+          <span id="description" class="description">
+          </span>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity:
+                <span id="humid"></span>%
+              </li>
+              <li>Windspeed: <span id="wind"></span>km/hour</li>
+            </ul>
+          </div>
+</div>
       </div>
     </div>
   </div>
-  <body></body>
+  <scrip src="src/index.js">
+
+  </script>
+  </body>
 </html>
